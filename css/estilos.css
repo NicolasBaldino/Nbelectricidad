@@ -1,0 +1,199 @@
+body{
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.container{
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.container .nav{
+  padding-top: 30px;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.container .nav .logo{
+  float: left;
+}
+
+.container .nav .titulo{
+  padding-top: 30px;
+  float: right;
+}
+
+.container .nav .titulo h1{
+}
+
+.container .nav ul{
+  margin-right: 100px;
+}
+
+.container .nav ul li{
+  float: left;
+  display: inline-block;
+  margin-right: 40px;
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.container .nav ul li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/*    MENU      */
+
+.menu {
+  background-image: url(../img/Electrician-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  height: 500px;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.menu h1{
+  padding-top: 220px;
+  font-size: 60px;
+  font-weight:;
+  color: white;
+  text-shadow: 4px 3px #2e2e2e;
+}
+
+.menu img{
+  width: 100%;
+}
+
+/*      SECTION      */
+
+.section.container{
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.section.container h5{
+  margin-bottom: 50px;
+}
+
+.section.container h2{
+  text-align: center;
+  color: #2966e6;
+}
+.section.container h5{
+  text-align: center;
+  font-weight: 100;
+
+}
+.jumbotron1, .jumbotron2, .jumbotron3{
+  height: 400px;
+  margin: 50px 50px 0px 50px;
+  margin-bottom: 20px;
+}
+
+.jumbotron1 .texto1, .jumbotron2 .texto2, .jumbotron3 .texto3 {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: #f5f5f5;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-bottom: 20px;
+}
+
+.jumbotron1 .texto1 h3, .jumbotron2 .texto2 h3, .jumbotron3 .texto3 h3 {
+  text-align: left;
+  color: #2966e6;
+  padding-top: 25%;
+  margin-bottom: 30px;
+}
+
+.jumbotron1 .texto1 p, .jumbotron3 .texto3 p{
+  font-weight: 100;
+}
+
+.jumbotron1 .imagen{
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-image: url(../img/Redes.jpg);
+}
+
+.jumbotron2 .texto2 ul {
+    list-style: none;
+    padding-left: 0;
+    font-weight: 100;
+}
+
+.jumbotron2 .imagen {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-image: url(../img/Electricidad.jpg);
+  background-size: cover;
+}
+
+.jumbotron3 .imagen{
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-image: url(../img/Vigilancia.jpg);
+  background-size: cover;
+}
+
+/*      CONTACTO         */
+
+
+.container .contacto {
+  min-width: 100%;
+  height: 200px;
+  margin-bottom: 80px;
+}
+
+.contacto h2{
+  text-align: center;
+  color: #2966e6;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.container-2 {
+  height: 150px;
+}
+
+.container .contacto .logo{
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+.container .contacto .datos{
+  float: right;
+  width: 50%;
+  height: 108px;
+  padding-top: 20px;
+
+}
+
+/*     FOOTER    */
+
+.footer{
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  text-align: center;
+  background-color: #c9c9c9;
+}
+
+.footer p{
+  width: 100%;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
